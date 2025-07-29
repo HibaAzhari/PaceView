@@ -13,7 +13,9 @@
 
   <form method="POST" enctype="multipart/form-data">
     <label>Upload GPX file:</label><br />
-    <input type="file" name="gpx_file" required /><br /><br />
+    <!-- <input type="file" name="gpx_file" required /><br /><br /> -->
+    <input type="file" name="gpx_file" accept=".gpx" required /><br /><br />
+
 
     <label>Select input method:</label><br />
     <input type="radio" name="method" value="distance" checked onchange="toggleMethod()"> Distance (km)<br />
