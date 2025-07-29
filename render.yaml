@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: PaceView
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
