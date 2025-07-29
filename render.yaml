@@ -1,6 +1,9 @@
 services:
   - type: web
-    name: PaceView
+    name: run-effort-logger
     env: python
-    buildCommand: ""
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
+    envVars:
+      - key: PORT
+        value: 5000
