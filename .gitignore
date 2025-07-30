@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# React build
+/build
+/dist
